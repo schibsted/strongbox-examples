@@ -8,7 +8,7 @@ apply plugin: 'java'
 // If you are already using the AWS SDK you might want to set them explicitly to a
 // version greater or equal to the Secret Management SDK as follows:
 ext.awsVersion = '1.11.124'
-ext.strongboxVersion = '0.2.7'
+ext.strongboxVersion = '0.2.13'
 
 ext.slf4jVersion = '1.7.25'
 ext.commonsLoggingVersion = '1.2'
