@@ -1,7 +1,8 @@
 strongbox:
   groupname: my.group
   enabled: true
-
-
-
-
+---
+spring:
+  profiles: test
+strongbox:
+  enabled: false

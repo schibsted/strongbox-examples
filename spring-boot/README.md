@@ -31,3 +31,18 @@ INFO  [2017-12-05 13:04:13,763] [] com.schibsted.security.springboot.example.App
 
 the `ApiClientConfig` Configuration class will now have its properties `secret` and `clientId` set. Visit http://localhost:8080/api-info to see the values.
 
+### Disabling strongbox-spring-boot-starter based on Spring profiles
+In this example application we have disabled the starter for the `test` profile in `bootstrap.yml`. You can also disable it for other profiles like `local` as in the example below. Usually developers like to supply parameters like `spring.datasource.password` on the command line when starting the application locally.
+
+
+bootstrap.yml:
+```shell
+strongbox:
+  groupname: my.group
+  enabled: true
+---
+spring:
+  profiles: test, local
+strongbox:
+  enabled: false
+```

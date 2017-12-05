@@ -7,8 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ConfigurationProperties("api")
-public class ApiClientConfig
-{
+public class ApiClientConfig {
 
     @Setter
     @Getter
