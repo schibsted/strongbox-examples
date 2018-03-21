@@ -1,8 +1,8 @@
 
-##Example spring-boot application with an api that exposes two secrets from Strongbox. 
+# Example spring-boot application with an api that exposes two secrets from Strongbox. 
 
 
-###Running the app locally
+## Running the app locally
 1) Have a secrets group set up in your AWS environment
 2) Create dummy secrets called `api.clientId`, `api.secret`, and `signatureKey`
 3) Configure `src/main/resources/bootstrap.yml` to match a secret group in your AWS environment.
