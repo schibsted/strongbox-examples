@@ -25,7 +25,6 @@ DEBUG [2017-12-05 13:04:06,571] [] com.schibsted.security.strongbox.springboot.S
 DEBUG [2017-12-05 13:04:06,571] [] com.schibsted.security.strongbox.springboot.StrongboxPropertySource: Setting property 'api.secret' from Strongbox, version 1
 DEBUG [2017-12-05 13:04:06,571] [] com.schibsted.security.strongbox.springboot.StrongboxPropertySource: Setting property 'signatureKey' from Strongbox, version 1
 INFO  [2017-12-05 13:04:06,576] [] com.schibsted.security.springboot.example.Application: No active profile set, falling back to default profiles: default
-WARN  [2017-12-05 13:04:13,264] [] org.springframework.boot.starter.remote.shell.RemoteShellStarterDeprecatedWarningAutoConfiguration: spring-boot-starter-remote-shell is deprecated as of Spring Boot 1.5 and will be removed in Spring Boot 2.0
 INFO  [2017-12-05 13:04:13,763] [] com.schibsted.security.springboot.example.Application: Started Application in 44.72 seconds (JVM running for 48.26)
 ```
 
